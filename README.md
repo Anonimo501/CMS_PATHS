@@ -4,6 +4,23 @@
 Este script es un scanner de seguridad automatizado que identifica y reporta vulnerabilidades potenciales en sistemas de gestión de contenido (CMS) mediante la detección de archivos y rutas sensibles expuestas públicamente.
 Identifica archivos de configuracion y que podrian llegar a tener credenciales de bases de datos.
 
+Recomendado usar un entorno virtual de python
+
+### crear entorno virtual
+python3 -m venv venv
+source venv/bin/activate
+
+### dar permisos y ejecutar
+
+chmod +x CMS_PATCHS.py
+python3 CMS_PATCHS.py
+python3 CMS_PATCHS.py URL
+python3 CMS_PATCHS.py dominio.com
+
+### salir de entorno virtual
+
+deactivate
+
 <img width="408" height="758" alt="Image" src="https://github.com/user-attachments/assets/4bc2453e-4109-4da3-95d2-73dc0761fd12" />
 
 <img width="1854" height="848" alt="Image" src="https://github.com/user-attachments/assets/e9f3818d-a753-4914-a64e-6a0b49d23a55" />
